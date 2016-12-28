@@ -210,7 +210,7 @@ lineBreak:
                     system("cls");
                     writeOnScreen();
                 }
-                else if(keycode ==0 && r!= NULL)
+                else if(keycode ==0)
                 {
                     goto addChar;
                 }
@@ -224,7 +224,7 @@ lineBreak:
                     system("cls");
                     writeOnScreen();
                 }
-                else if(keycode ==0 && r!= NULL)
+                else if(keycode ==0)
                 {
                     goto addChar;
                 }
@@ -240,13 +240,13 @@ lineBreak:
                     }
 
                 }
-                else if(r!= NULL)
+                else
                 {
                     goto addChar;
                 }
                 break;
             case RIGHT_ARROW:
-                if(keycode==1 && r!= NULL)
+                if(keycode==1)
                 {
                     if(iter -> next != NULL)
                     {

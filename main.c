@@ -1,3 +1,6 @@
+/*150202011 SARPER KUMCU
+  150202060 AHMET EMRE ERDEM*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -210,7 +213,7 @@ lineBreak:
                     system("cls");
                     writeOnScreen();
                 }
-                else if(keycode ==0)
+                else if(keycode ==0 && r!= NULL)
                 {
                     goto addChar;
                 }
@@ -224,7 +227,7 @@ lineBreak:
                     system("cls");
                     writeOnScreen();
                 }
-                else if(keycode ==0)
+                else if(keycode ==0 && r!= NULL)
                 {
                     goto addChar;
                 }
@@ -240,13 +243,13 @@ lineBreak:
                     }
 
                 }
-                else
+                else if(r!= NULL)
                 {
                     goto addChar;
                 }
                 break;
             case RIGHT_ARROW:
-                if(keycode==1)
+                if(keycode==1 && r!= NULL)
                 {
                     if(iter -> next != NULL)
                     {

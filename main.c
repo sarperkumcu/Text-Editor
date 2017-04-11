@@ -1,6 +1,3 @@
-/*150202011 SARPER KUMCU
-  150202060 AHMET EMRE ERDEM*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
